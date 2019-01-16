@@ -58,6 +58,7 @@ header nav {
 
 .keypoints {
   padding-top: 90px;
+
 }
 
 .keypoints article {
@@ -96,4 +97,72 @@ header nav {
 
   font-size: 16px;
   line-height: 120%;
+}
+.dark {
+  background-color: #383856;
+  height: 788px;
+
+}
+.dark h2 {
+  font-family:'Roboto', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.dark article {
+  width: 260px;
+  height: 200px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+.dark article+article {
+  margin-top: 20px;
+}
+.dark article blockquote {
+  color: #fff;
+  font-family: georgia;
+  font-style: italic;
+  font-size: 16px;
+  width: 177px;
+  padding-top: 57px;
+  padding-left: 30px;
+}
+
+.price {
+  font-family: 'Roboto', sans-serif;
+  height: 1067px;
+}
+.price h2 {
+  font-size:24px;
+  font-weight: 700;
+  color: #000;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.price article {
+  width: 260px;
+  height: 398px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+.price article+article {
+  margin-top: 30px;
+}
+.price a {
+  display: inline-block;
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 9px 30px 9px 30px;
+  background-color:#FFAC3E;
+  text-decoration: none;
+  border-radius: 2px;
+
 }
