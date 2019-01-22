@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+  header {
+    padding: 20px 30px;
+  }
+  .intro {
+    display: flex;
+    height: 80vh;
+    text-align: left;
+    align-items: center;
+    padding: 30px 90px;
+  }
+}
